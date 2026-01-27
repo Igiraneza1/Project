@@ -9,7 +9,7 @@ function Button({ label, onClick, type = "button" }: ButtonProps) {
     <button
       type={type}
       onClick={onClick}
-      className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+      className="px-4 py-2 rounded bg-orange-600 text-white hover:bg-orange-700"
     >
       {label}
     </button>
