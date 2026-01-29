@@ -1,131 +1,121 @@
-# Unlock Technology for All
+🔥 Fire Safety Awareness Platform
 
-Unlock Technology for All is a **full-stack e-learning platform** designed to make technology education accessible for everyone. The platform supports **beginner, intermediate, and advanced learners** and uses **role-based access control** to manage users, courses, and learning progress.
+Fire Safety Awareness Platform is an online learning platform that provides accessible fire protection notes for the public in Rwanda. It helps individuals learn and revise fire safety practices related to electricity, gas, fire extinguishers, and emergency actions.
 
-This project is built as a learning-focused, real-world application using **React, TypeScript, Node.js, and MongoDB**, with clean and understandable code.
+The platform is designed as a learning-focused MVP, showcasing a clean and understandable full-stack application built with React, TypeScript, Node.js, and MongoDB.
 
----
+🚀 MVP Features (Public)
 
-## 🚀 Features
+Intro Page with:
 
-### 👥 User Roles
+Platform purpose and goals
 
-* **Admin**
+Visual 3-grid layout with images and short explanations
 
-  * Full system access
-  * Manage managers, mentors, and users
-  * View platform-wide statistics
+Hover effects on cards for interactivity
 
-* **Manager**
+Minimal Navbar showing only the logo
 
-  * Assign and manage mentors
-  * Oversee courses and learners
+Learn More / Login Button for access to private content
 
-* **Mentor**
+👥 Planned User Roles (Future)
 
-  * Create and manage courses
-  * Add lessons and learning content
-  * Track learner progress
+Admin – full system control
 
-* **Learner**
+Manager – manage mentors and learners
 
-  * Browse and enroll in courses
-  * Learn through structured lessons
-  * Track course progress
+Mentor – create courses and track progress
 
----
+Learner – enroll and learn
 
-## 📚 Core Functionalities
+Note: Role-based access and dashboards are part of the next development phase.
 
-* Authentication & authorization (JWT-based)
-* Role-based dashboards
-* Course & lesson management
-* Learner enrollment
-* Progress tracking
-* Search and filter courses by level and category
+🧠 Project Goal
 
----
+This MVP project aims to:
 
-## 🧠 Project Goal
+Provide accessible fire safety knowledge to the public
 
-The goal of this project is to:
+Practice full-stack development using TypeScript
 
-* Practice **full-stack development** with TypeScript
-* Learn **real-world application architecture**
-* Build a scalable and maintainable codebase
-* Improve problem-solving and debugging skills
+Learn real-world architecture and clean coding practices
 
----
+Build a scalable, maintainable MVP
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
+Frontend
 
-### Frontend
+React
 
-* React
-* TypeScript
-* Tailwind CSS
-* React Router
-* Axios
+TypeScript
 
-### Backend
+Tailwind CSS
 
-* Node.js
-* Express
-* TypeScript
-* MongoDB
-* JWT Authentication
+React Router
 
----
+Backend (Planned)
 
-## 📁 Project Structure (Simplified)
+Node.js
 
-### Frontend
+Express
 
-### Backend
+TypeScript
 
-## 🏁 Getting Started (Frontend)
+MongoDB
 
+JWT Authentication
+
+📁 Project Structure (Simplified MVP)
+Frontend
+src/
+ ├─ assets/          # images and logos
+ ├─ components/      # Navbar, Button, etc.
+ ├─ pages/           # Intro, About, Login (future)
+ └─ App.tsx
+
+Backend (Planned)
+src/
+ ├─ controllers/
+ ├─ models/
+ ├─ routes/
+ ├─ middleware/
+ └─ server.ts
+
+🏁 Getting Started (Frontend MVP)
 npm install
 npm run dev
 
----
 
-## 🏁 Getting Started (Backend)
+Backend setup and environment variables will be added in future development.
 
-npm install
-npm run dev
+📅 Development Plan
 
-> Environment variables will be added later in development.
+2-month plan, 40 minutes per weekday
 
----
+Week 1–2: Frontend MVP (Intro page, grid, navbar) ✅
 
-## 📅 Development Plan
+Week 3–4: Login, About page, routing
 
-This project is developed over **2 months**, using **40 minutes per weekday**, covering:
+Week 5–6: Backend setup (Node.js + MongoDB)
 
-* Frontend development (React + TypeScript)
-* Backend development (Node.js + TypeScript)
-* API integration
-* Deployment and documentation
+Week 7–8: API integration, role-based access, testing
 
----
+🌱 Future Enhancements
 
-## 🌱 Future Enhancements
+Full role-based dashboards
 
-* Certificates of completion
-* Course ratings and reviews
-* Notifications
-* Advanced analytics
-* Payment integration
+Course & lesson management
 
----
+Learner enrollment & progress tracking
 
-## 📄 License
+Notifications & certificates
 
-This project is created for **educational purposes**.
+Course ratings, reviews, and analytics
 
----
+📄 License
 
-## ✨ Author
+This project is for educational purposes.
 
-Built with dedication as a learning-focused full-stack
+✨ Author
+
+Built with dedication as a learning-focused full-stack MVP, focusing on fire protection awareness and accessible online learning.
