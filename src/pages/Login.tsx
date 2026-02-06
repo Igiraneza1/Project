@@ -16,7 +16,7 @@ function Login() {
         <img
           src="/src/assets/intro image/aimage.jpg"
           alt="Fire Safety"
-          className="w-full  h-auto shadow-lg rounded-md m-5"
+          className="w-full h-auto shadow-lg rounded-md m-5"
         />
       </div>
 
@@ -78,6 +78,17 @@ function Login() {
             />
             Continue with Google
           </button>
+
+          {/* Signup Link */}
+          <p className="text-sm text-center mt-4">
+            Don&apos;t have an account?{" "}
+            <span
+              onClick={() => navigate("/signup")}
+              className="text-red-600 cursor-pointer hover:underline"
+            >
+              Sign up
+            </span>
+          </p>
         </form>
       </div>
     </div>
