@@ -1,15 +1,13 @@
-type ButtonProps = {
+interface ButtonProps {
   label: string;
   onClick?: () => void;
-  type?: "button" | "submit";
-};
+}
 
-function Button({ label, onClick, type = "button" }: ButtonProps) {
+function Button({ label, onClick }: ButtonProps) {
   return (
     <button
-      type={type}
       onClick={onClick}
-      className="px-4 py-2 rounded bg-orange-600 text-white hover:bg-orange-700"
+      className="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700"
     >
       {label}
     </button>
