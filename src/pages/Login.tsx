@@ -9,22 +9,22 @@ function Login() {
   }
 
   return (
-    <div className="min-h-screen flex bg-gray-100">
+    <div className="h-screen flex bg-gray-100 overflow-hidden">
       
       {/* Left Image Section */}
-      <div className="hidden md:flex w-2/3 items-center justify-center">
+      <div className="hidden md:flex w-2/3 h-full">
         <img
           src="/src/assets/intro image/aimage.jpg"
           alt="Fire Safety"
-          className="w-full h-auto shadow-lg rounded-md m-5"
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Right Form Section */}
-      <div className="w-full md:w-1/2 flex items-center justify-center">
+      <div className="w-full md:w-1/3 flex items-center justify-center px-6">
         <form
           onSubmit={handleLogin}
-          className="bg-white p-2 rounded-md shadow-md w-100"
+          className="bg-white p-8 rounded-md shadow-md w-full max-w-md"
         >
           <h2 className="text-2xl font-bold text-center mb-6">
             Login
@@ -34,12 +34,14 @@ function Login() {
             type="email"
             placeholder="Email"
             className="w-full border p-2 mb-3 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+            required
           />
 
           <input
             type="password"
             placeholder="Password"
             className="w-full border p-2 mb-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
+            required
           />
 
           {/* Forgot password */}
@@ -83,7 +85,7 @@ function Login() {
           <p className="text-sm text-center mt-4">
             Don&apos;t have an account?{" "}
             <span
-              onClick={() => navigate("/signup")}
+              onClick={() => navigate("/Signup")}
               className="text-red-600 cursor-pointer hover:underline"
             >
               Sign up
