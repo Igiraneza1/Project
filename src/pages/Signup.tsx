@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 
 const Signup: React.FC = () => {
@@ -7,7 +8,7 @@ const Signup: React.FC = () => {
       className="relative min-h-screen bg-cover bg-center flex items-center justify-center lg:justify-between px-6 lg:px-20"
       style={{ backgroundImage: "url('/src/assets/intro image/aimage.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/80"></div>
 
       <div className="relative z-10 hidden lg:block max-w-xl text-white">
         <img src="/new.png" alt="Logo" className="w-20 mb-6" />
@@ -83,9 +84,12 @@ const Signup: React.FC = () => {
         <div className="mt-6 text-center text-sm">
           <p className="text-gray-600">
             Already have an account?{" "}
-            <span className="text-orange-600 font-medium hover:underline cursor-pointer">
+            <Link
+              to="/login"
+              className="text-orange-600 font-medium hover:underline cursor-pointer"
+            >
               Sign In
-            </span>
+            </Link>
           </p>
         </div>
       </div>

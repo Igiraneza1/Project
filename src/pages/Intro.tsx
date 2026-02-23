@@ -10,7 +10,6 @@ function Intro() {
 
   return (
     <div className="w-full bg-gray-100">
-      {/* grid */}
       <div className="min-h-screen flex flex-col items-center justify-center gap-6 px-4 sm:px-6 lg:px-12">
         <h1 className="text-3xl sm:text-4xl font-bold text-center">
           Fire Safety Awareness
@@ -55,7 +54,6 @@ function Intro() {
         </div>
       </div>
 
-      {/* steps */}
       <div className="w-full py-12 px-4 sm:px-6 lg:px-12">
         <div className="w-full max-w-6xl mx-auto border border-red-400 rounded-xl p-6 sm:p-10">
           <h1 className="text-center text-2xl sm:text-3xl font-bold text-red-700 mb-8 sm:mb-10">
@@ -119,7 +117,6 @@ function Intro() {
         </div>
       </div>
 
-      {/* button */}
       <div className="m-8 flex justify-center">
         <Button label="Get Started" onClick={goToLogin} />
       </div>

@@ -8,7 +8,7 @@ const Login: React.FC = () => {
       className="relative min-h-screen bg-cover bg-center flex items-center justify-center lg:justify-between px-6 lg:px-20"
       style={{ backgroundImage: "url('/src/assets/intro image/aimage.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/80"></div>
 
       <div className="relative z-10 hidden lg:block max-w-xl text-white">
         <img src="/new.png" alt="Logo" className="w-20 mb-6" />
@@ -24,7 +24,6 @@ const Login: React.FC = () => {
         </p>
       </div>
 
-      {/* Login Card */}
       <div className="relative z-10 w-full max-w-md bg-white rounded-2xl shadow-2xl p-8">
         <div className="text-center mb-6 lg:hidden">
           <img src="/logo.png" alt="Logo" className="w-16 mx-auto mb-3" />
